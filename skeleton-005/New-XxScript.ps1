@@ -27,7 +27,7 @@
 ##----------------------------------------
 ## USAGE
 ##----------------------------------------
-## PS > get-help ./New-RvScript.ps1 -detailed
+## PS > get-help ./New-XxScript.ps1 -detailed
 [CmdletBinding()]
 param
 (
@@ -46,7 +46,7 @@ param
 ## CONFIG
 ##----------------------------------------
 $CWD = Get-Location
-. $CWD/Get-ZzCtx.ps1
+. $CWD/Get-XxCtx.ps1
 
 
 ##----------------------------------------
@@ -62,8 +62,8 @@ function Get-Message {
 ##----------------------------------------
 ## MAIN
 ##----------------------------------------
-function New-ZzScriptMain {
+function New-XxScriptMain {
      Get-Message
 }
 
-New-ZzScriptMain
+New-XxScriptMain
